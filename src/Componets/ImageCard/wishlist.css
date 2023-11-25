@@ -1,0 +1,45 @@
+.wishlist{
+    
+    display: flex;
+    height: 600px;
+    width: 400px;
+    
+}
+.wishlist button{
+    height: 2rem;
+    width: 8rem;
+    position: relative;
+    top:80%;
+    left:50%;
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);}
+
+.fab{
+    position: relative;
+    top:10%;
+    left:80%;
+    height: 2rem;
+    width: 2rem;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+   
+}
+.card h1{
+    color: red;
+}
+.card h2{
+    font-weight: 300;
+}
+.card_details{
+    width: 50%;
+    text-align: left;
+}

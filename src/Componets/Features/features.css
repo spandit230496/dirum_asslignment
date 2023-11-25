@@ -1,0 +1,11 @@
+.features{
+    margin-left: 1rem;
+    display: flex;
+    gap:3rem
+}
+.features h2{
+    text-transform: uppercase;
+}
+.features h3{
+    font-weight: 200;
+}
